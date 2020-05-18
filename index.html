@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
 	<meta charset="UTF-8">
-	<title>Во все тяжкие</title>
+	<title>Breaking Bad</title>
 	<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>
-    <style>
-* {
+    </head>
+<style>
+* {  box-sizing: border-box;}
+    input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.con{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}    
 img {
   vertical-align: middle;
 }
@@ -75,7 +102,7 @@ img {
 .active,
 .demo:hover {
   opacity: 1;
-}
+}    
 </style>
 <body>
 	<header class="header">
@@ -336,5 +363,28 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
+    <h3 style="text-align: center; font-size: 3em;">Contact Form</h3>
+
+<div style="background-color: antiquewhite" class="con">
+  <form action="/action_page.php">
+    <label style="font-size: 1.5em" for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label style="font-size: 1.5em" for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label style="font-size: 1.5em" for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Ukraine">Ukraine</option>
+      <option value="Russia">Russia</option>
+      <option value="Poland">Poland</option>
+    </select>
+
+    <label style="font-size: 1.5em" for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
     </body>
 </html>
