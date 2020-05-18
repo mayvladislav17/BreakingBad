@@ -1,0 +1,179 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	
+	height: 100vh;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+.menu {
+	padding: 30px;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 24px;
+	font-size: 28px;
+}
+
+.menu a {
+	color: darkslategrey;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.menu li a:hover{
+    color: white;
+}
+
+.titles__first {
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 300px;
+}
+
+h1 {
+	font-size: 45px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 250px;
+}
+
+.title {
+	padding-top: 4%;
+}
+
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+
+.services {
+}
+
+.services__item	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services__item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services__item h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services__item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.services__item:last-child {
+	float: right;
+}
+.services__itemgg:last-child {
+	float: right;
+}
+.services__item:nth-child(2) {
+	margin-left: 60px;
+}
+.services__itemgg	{
+	width: 270px;
+	float: left;
+	text-align: center;
+}
+
+.services__itemgg h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.services__itemgg h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.services__itemgg p {
+	color: #777777;
+	font-size: 14px;
+}
+
+.services__itemgg:last-child {
+	float: right;
+}
+.services__itemgg:last-child {
+	float: right;
+    margin-right: 15%;
+}
+#services {
+	padding-bottom: 30px;
+}
+
+#Portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+.director{
+    width: 270px;
+}
